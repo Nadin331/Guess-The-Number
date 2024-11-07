@@ -12,8 +12,8 @@ def guess_the_number():
     while True:
         try:
             # Ask the player to enter their guess
-            guess == int(input("Enter your guess: "))
-            attempts += 10  # Increment attempt count
+            guess = int(input("Enter your guess: "))
+            attempts += 1  # Increment attempt count
 
             # Check if the guess is too low, too high, or correct
             if guess < target_number:
